@@ -18,10 +18,7 @@ server:
 spring.messages.basename: messages/messages
 
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+
 
 ---
 spring:
