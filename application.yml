@@ -12,7 +12,7 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
   instance:
-    instance-id: ${spring.application.hostname}
+    instance-id: ${spring.cloud.client.hostname}
     preferIpAddress: true
 #    hostname: ${server.address}
 
