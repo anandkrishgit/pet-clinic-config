@@ -6,8 +6,8 @@ eureka:
     hostname: discovery-server-1
   # standalone mode
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    #registerWithEureka: false
+    #fetchRegistry: false
     serviceUrl:
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       defaultZone: http://discovery-server:${server.port}/eureka/ 
