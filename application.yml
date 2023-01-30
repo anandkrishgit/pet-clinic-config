@@ -13,6 +13,7 @@ eureka:
       defaultZone: http://discovery-server:8761/eureka/
   instance:
     preferIpAddress: true
+    hostname: ${server.address}
 
 
 # embedded database init, supports mysql too trough the 'mysql' spring profile
