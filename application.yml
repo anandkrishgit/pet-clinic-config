@@ -12,7 +12,8 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
   instance:
-    preferIpAddress: true
+    instance-id: ${spring.application.name}:${random.uuid}
+#    preferIpAddress: true
 #    hostname: ${server.address}
 
 
