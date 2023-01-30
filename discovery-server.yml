@@ -4,7 +4,6 @@
 eureka:
   instance:
     hostname: discovery-server
-    preferIpAddress: true
   # standalone mode
   client:
     registerWithEureka: false
