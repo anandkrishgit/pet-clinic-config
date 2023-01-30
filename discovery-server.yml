@@ -3,7 +3,9 @@
 
 eureka:
   instance:
-    hostname: discovery-server
+    #hostname: discovery-server
+    instance-id: ${spring.cloud.client.hostname}
+   # preferIpAddress: true
   # standalone mode
   client:
     registerWithEureka: false
